@@ -1,0 +1,122 @@
+@media screen and (min-width: 992px) {
+  li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-size: 17px;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+  a {
+    color: blanchedalmond;
+    opacity: 0.7;
+  }
+  .scrollLink {
+    color: blanchedalmond;
+    opacity: 0.7;
+    font-size: 15px;
+  }
+  a:hover {
+    opacity: 1;
+    color: blanchedalmond;
+    text-decoration: none;
+  }
+  .scrollLink:hover {
+    opacity: 1;
+    color: blanchedalmond;
+    text-decoration: none;
+  }
+  .Logo {
+    margin-top: 10px;
+  }
+  nav {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+  }
+
+  ul {
+    margin-left: 50%;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .DesktopHidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  a {
+    opacity: 0.7;
+    color: white;
+  }
+  a:hover {
+    opacity: 1;
+
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+  }
+  nav {
+    position: sticky;
+    height: 60px;
+    top: 0;
+    z-index: 999999;
+  }
+  .mobileNav {
+    background: black;
+    background: black;
+    height: 60px;
+  }
+  .Mobile {
+    position: sticky;
+    height: 270px;
+    z-index: 99999999;
+    top: 60px;
+    left: 0;
+    right: 0;
+
+    background: rgba(0, 0, 0, 1);
+
+    transform: translateX(-100vh);
+    transition: all 0.3s ease;
+
+    display: none;
+  }
+  li {
+    font-size: 15px;
+    margin: 20px;
+  }
+  .Logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+  }
+  .MobileButton {
+    position: absolute;
+    right: 10px;
+    z-index: 99999999;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .MobileHidden {
+    display: none;
+  }
+}
+
+.Logo {
+  display: inline;
+  color: white;
+  border-radius: 20%;
+  border: 1px solid white;
+  padding: 0 10px;
+  font-size: 25px;
+  position: absolute;
+  z-index: 999999;
+}

@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/assets/images/CodeWar.jpg') no-repeat fixed;
+  background-size: cover;
+  margin: 0px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url('/assets/images/CodeWar_small.jpg') no-repeat fixed;
+    background-size: cover;
+    margin:0px;
+    padding: 0px;
+  }
+}
+section {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+* {
+  transition: all 0.3 ease;
+}

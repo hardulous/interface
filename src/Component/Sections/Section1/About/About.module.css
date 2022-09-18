@@ -1,0 +1,41 @@
+.Middle {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.BigFont {
+  font-size: 60px;
+  color: antiquewhite;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.Info {
+  display: block;
+  color: beige;
+  font-size: 25px;
+  margin: 10px;
+  font-family: 'Roboto';
+}
+.Info2 {
+  display: block;
+  color: beige;
+  font-size: 17px;
+}
+@media screen and (max-width: 992px) {
+  .BigFont {
+    font-size: 50px;
+    color: antiquewhite;
+  }
+  .Info {
+    font-size: 15px;
+  }
+  .Info2 {
+    font-size: 14px;
+  }
+  .Middle {
+    width: 100%;
+  }
+}

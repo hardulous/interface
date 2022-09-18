@@ -1,0 +1,13 @@
+.loginSection {
+  padding: 50px;
+}
+
+.loginSection input {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: white;
+}
+.loginSection button {
+  width: 100%;
+  max-width: 500px;
+}

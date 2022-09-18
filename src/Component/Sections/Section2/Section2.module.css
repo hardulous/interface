@@ -1,0 +1,10 @@
+.Section2 {
+  text-align: center;
+  background-color: #f6f5f5;
+}
+.anchor {
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}

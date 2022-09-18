@@ -1,0 +1,30 @@
+.Footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+.orange {
+  color: orange;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.white {
+  color: white;
+}
+.Developer {
+  margin: 100px 0;
+  font-size: 20px;
+}
+.Developer h4 {
+  margin: 20px 0;
+}
+.Developer i {
+  margin: 0 15px;
+}
+i:hover {
+  color: orange;
+}
+p {
+  color: 'white';
+}

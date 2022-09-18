@@ -1,0 +1,22 @@
+.Feedback {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  width: 90%;
+  max-width: 500px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(255, 119, 0, 1);
+  color: #222;
+}
+.Feedback:hover {
+  background-color: orangered;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 747px) {
+  .Section {
+    height: 100vh;
+  }
+}

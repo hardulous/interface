@@ -1,0 +1,70 @@
+/* @media screen and (min-width: 767px) {
+  .EventCategories {
+    margin: 20px;
+  }
+} */
+.EventCategories {
+  border: 1px solid white;
+}
+.EventCategories img {
+  width: 100%;
+  height: 130px;
+  transition: all 0.3s ease;
+}
+.EventCategories:hover:after {
+  width: 0;
+
+  transition: all 0.3s ease;
+}
+
+.EventCategories:after {
+  content: '';
+  width: 100%;
+  height: 130px;
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.EventCategories:hover {
+  cursor: pointer;
+  width: inherit;
+  transition: all 0.3s ease;
+}
+/* .EventCategories:hover:before {
+  content: 'Click to Expand';
+  color: white;
+  background: orange;
+  padding: 5px;
+  font-size: 10px;
+
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+} */
+.name {
+  font-weight: bolder;
+  font-size: 15px;
+}
+.Transparent {
+  height: 80px;
+  width: 170px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+}
+@media screen and (max-width: 767px) {
+  .EventCategories img {
+    width: 100%;
+    height: 90px;
+    transition: all 0.3s ease;
+  }
+  .EventCategories:after {
+    width: 100%;
+    height: 90px;
+  }
+}

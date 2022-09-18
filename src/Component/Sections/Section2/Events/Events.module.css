@@ -1,0 +1,33 @@
+/* .Events {
+  padding: 0px;
+} */
+.Title {
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+.Section2 {
+  background-color: #f6f5f5;
+}
+hr {
+  border-bottom: 2px solid black;
+  width: 50px;
+}
+@media screen and (max-width: 767px) {
+  .Title {
+    font-size: 50px;
+  }
+  hr {
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  .maxWid {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 767px) {
+  .maxWid {
+    max-width: 265px;
+    padding: 0px;
+  }
+}
